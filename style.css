@@ -1,0 +1,150 @@
+:root{
+    color: rgb(83, 192, 165);
+    lighting-color:white;
+    background-color:black;
+    padding: 5%;
+    
+}
+*{
+    margin: 0;
+    text-decoration: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+
+}
+html{
+    font-family: eurb10 ;
+    font-size: 16px;
+    color: var(white);
+}
+nav {
+    margin: 3px;
+    padding-top: 2.2rem;
+    padding-left: 8%;
+    padding-right:8% ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+
+}
+nav ul li{
+    list-style-type:none ;
+    display: inline-block;   
+     margin: 0.2rem 1.8cm;
+     transition: 0.5s;
+}
+nav ul li a:hover{
+    color:rgb(83, 192, 165)
+
+}
+.content{
+    flex-grow: 1;
+    padding: 5%;
+
+}
+
+span{
+    color: rgb(83, 192, 165);
+}
+h1{
+    font-size: 3rem;
+    margin: 1.5rem 0.0rem;
+}
+h4{
+    font-size: 1.2rem;
+    margin:0.5rem ;
+}
+p{
+    font-size: 110px;
+    margin: 2.5rem;
+    margin-left: 0rem;
+    
+}
+header{
+    font-size:  1.5rem ;
+    margin: 3.8rem;
+    text-align: center;
+    
+
+    
+}
+h2{
+    font-size:  1.5rem ;
+    margin: 3.8rem;
+    align-items: left;
+
+}
+.cls1{
+     
+    margin: 15rem;
+    border-width: 2px;
+            border-color:rgb(83, 192, 165) ;
+            border-top-style: ridge;
+            border-bottom-style:ridge;
+            border-left-style: ridge;
+            border-left-color:rgb(83, 192, 165);
+            border-right-style: ridge;
+            border-right-color:rgb(83, 192, 165);
+            border-radius: 180px;
+            text-align: center;
+            
+
+}
+
+
+    
+
+
+h3{
+    color: rgb(112, 160, 148);
+    font-size:x-large;
+    
+}
+
+.cls2{
+    text-align: letf;
+    margin: 5rem;
+    border-width: 2px;
+            border-color:rgb(83, 192, 165) ;
+            border-top-style: ridge;
+            border-bottom-style:ridge;
+            border-left-style: ridge;
+            border-left-color:rgb(83, 192, 165);
+            border-right-style: ridge;
+            border-right-color:rgb(83, 192, 165);
+            border-radius: 180px;
+            text-align: center;
+            
+    
+}
+.cls3{
+    text-align: right;
+    margin: 5rem;
+    border-width: 2px;
+            border-color:rgb(83, 192, 165) ;
+            border-top-style: ridge;
+            border-bottom-style:ridge;
+            border-left-style: ridge;
+            border-left-color:rgb(83, 192, 165);
+            border-right-style: ridge;
+            border-right-color:rgb(83, 192, 165);
+            border-radius: 180px;
+            text-align: center;
+            
+}
+
+.cls4 img{
+    width: 600px;
+    height: 600px;
+    object-fit:contain;
+    object-position: bottom right;
+    
+}
+
+
+
+
+
+
